@@ -1,5 +1,5 @@
 {% set name = "flask-injector" %}
-{% set version = "0.12.3" %}
+{% set version = "0.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Flask-Injector-{{ version }}.tar.gz
-  sha256: 82f5bf1245f6fbdbd19eeea4289fe35a3417a8ce05f710847a2f96b771a8085c
+  sha256: d527f82dfa118acd3011da02edeef855ac7ec656383e2cb6b811071f4f6364a3
 
 build:
   number: 0

@@ -1,5 +1,5 @@
 {% set name = "flask-injector" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Flask-Injector-{{ version }}.tar.gz
-  sha256: f116c24bb3e3e34ca3e41a940eab6178ede41954d27bb02f8a044f128d750dbc
+  sha256: 567c69da7657b96565db990bb7c87cc0acf04e383714341954902f1ef85c5875
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - flask >=2.1.2
+    - flask >=2.2.0
     - injector >=0.20.0
     - python >=3.7
 
